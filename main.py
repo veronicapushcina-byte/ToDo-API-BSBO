@@ -8,7 +8,7 @@ app = FastAPI(
     description="API для управления задачами с использованием матрицы Эйзенхауэра",
     version="1.0.0",
     contact={
-        "name": "Постоленко Вероника Сергеевна"
+        "name": "Постоленко Виктория Сергеевна"
     }
 )
 app.include_router(tasks.router)
